@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <script src="./index.js" type="module" async></script>
+    </head>
+    <body>
+        <ul id="todolist"></ul>
+        <input 
+        id = "firstName"
+        name = "firstName"
+        type = "text"
+        value="name"
+        />
+        <input 
+        id = "lastName"
+        name = "lastName"
+        type = "text"
+        value="surname"
+        />
+        <input 
+        id = "phone"
+        name = "phone"
+        type = "text"
+        value="phone"
+        />
+        <button id = "btn">Add contact</button>
+        
+    </body>
+    
+    <script id="contactItemTemplate" type ="text/template">
+        <li data-id="{{id}}" class="todoItem">
+            <span>{{firstName}}</span>
+            <span>{{lastName}}</span>
+            <span>{{phone}}</span>
+            <button class = "deleteBtn">Удалить</button>
+        </li>
+    </script>
+
+</html>

@@ -1,0 +1,21 @@
+.tabs {
+    display: flex;
+}
+
+.tabs-item-header {
+    border: 2px solid #f00;
+    margin: 10px;
+    width: 33.33%;
+}
+
+.tabs-item-body {
+    border: 2px solid #00f;
+    padding: 10px;
+    /* width: 100%; */
+    height: 500px;
+    display: none;
+}
+
+.open {
+    display: block;
+}

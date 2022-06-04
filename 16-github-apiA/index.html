@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>HW</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+        <script src="./script.js" type="module" defer></script>
+
+    </head>
+    <body>
+        <form action="" id="form">
+          <input value="Name" type="text" id="nameInput" required placeholder="Git">
+          <button type="submit" id="submitButton">Find</button>
+          <div class="userInfoDiv"></div>
+        </form>
+        <script type="text/template" id="conactTemplate">
+          <div>
+            <img src="{{src}}" />
+            <p>{{repos}}</p>
+            <p>{{followers}}</p>
+            <p>{{following}}</p>
+          </div>
+        </script>
+    </body>
+</html>
