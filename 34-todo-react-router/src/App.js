@@ -9,7 +9,6 @@ import style from  './App.css';
 
 const activeClassName = ({isActive}) => isActive ? style.active : undefined
 
-
 export default function App() {
     return (
         <BrowserRouter>
